@@ -7,10 +7,13 @@ import Fitness from "../src/Components/Fitness";
 import Technology from "../src/Components/Technology";
 import Food from "../src/Components/Food";
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
+import DataState from "./Context/DataState";
 
 
 function App() {
   return (
+    <>
+    <DataState>
     <div className="App">
      <Router>
      <Top/>
@@ -24,6 +27,8 @@ function App() {
      </Routes>
      </Router>
     </div>
+    </DataState>
+    </>
   );
 }
 

@@ -1,9 +1,9 @@
 import React,{useState} from "react";
+import DataContext from "./DataContext";
 
-export const DataContext = React.createContext();
 
-export default function Context(props) {
-  const[Data, setData] = useState([
+const DataState=(props)=> {
+  const[data, setData] = useState([
 {
     id:"1",
     category: "Technology",
@@ -130,6 +130,10 @@ export default function Context(props) {
 
   ])
   return (
-    <DataContext.Provider value={[Data,setData]}>{props.children}</DataContext.Provider>
+    <DataContext.Provider value={[data,setData]}>
+        {props.children}
+    </DataContext.Provider>
   )
 }
+
+export default DataState;
