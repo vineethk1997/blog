@@ -6,14 +6,23 @@ const Technology=()=> {
   const [data]= useContext(DataContext);
   console.log({data});
   return (
-    <div className="card-container">
-      <h1 className="heading"></h1>
-      <img className="image" src="" alt="image" />
-      <p></p>
-      <div className="info">      
-        <h4>category: </h4>
-      </div>
-    </div>
+   
+   
+    <>
+    {data.filter(data => data.category==="Technology").map((row)=>
+        console.log(row.name)
+      
+    )}
+
+    {/* // <div className="card-container">
+    //   <h1 className="heading"></h1>
+    //   <img className="image" src="" alt="image" />
+    //   <p></p>
+    //   <div className="info">      
+    //     <h4>category: </h4>
+    //   </div>
+    // </div> */}
+    </>
   )
 }
 export default Technology;

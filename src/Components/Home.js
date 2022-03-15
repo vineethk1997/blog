@@ -7,13 +7,19 @@ export default function Home() {
   console.log({data});
  
   return (
-    <div className="card-container">
-    <h1 className="heading"></h1>
-    <img className="image" src="" alt="image" />
-    <p></p>
-    <div className="info">      
-      <h4>category: </h4>
-    </div>
-  </div>
+  <>
+  {data.map((row)=>
+        console.log(row.name)
+      
+  )}
+  {/* //   <div className="card-container">
+  //   <h1 className="heading"></h1>
+  //   <img className="image" src="" alt="image" />
+  //   <p></p>
+  //   <div className="info">      
+  //     <h4>category: </h4>
+  //   </div>
+  // </div> */}
+  </>
   )
 }

@@ -85,9 +85,9 @@ const DataState=(props)=> {
 },{
     id:"14",
     category: "Food",
-    name: "",
-    img: "",
-    about: ""
+    name: "Paneer",
+    img: "https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.indianhealthyrecipes.com%2Fwp-content%2Fuploads%2F2020%2F10%2Fpaneer-lababdar-recipe-500x500.jpg&imgrefurl=https%3A%2F%2Fwww.indianhealthyrecipes.com%2Fpaneer-lababdar-recipe%2F&tbnid=42ISeNY9M3wVWM&vet=12ahUKEwizrbiMucf2AhWkpukKHV_RCXwQMygBegUIARDtAQ..i&docid=FZrImyOcOVzGwM&w=500&h=500&q=paneer%20lababdar&ved=2ahUKEwizrbiMucf2AhWkpukKHV_RCXwQMygBegUIARDtAQ",
+    about: "Paneer, also known as ponir or Indian cottage cheese, is a fresh acid-set cheese common in the Indian subcontinent made from cow or buffalo milk. It is a non-aged, non-melting soft cheese made by curdling milk with a fruit- or vegetable-derived acid, such as lemon juice.Super rich in protein, having paneer for breakfast makes you feel full for longer. It gets digested slowly and increases the amount of feeling full hormones like GLP-1, PYY and CCK. Apart from protein, paneer is also rich in fat, iron, calcium and magnesium, which makes it an even healthier choice."
 },{
     id:"15",
     category: "Food",
