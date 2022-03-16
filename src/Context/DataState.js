@@ -8,7 +8,7 @@ const DataState=(props)=> {
     id:"1",
     category: "Technology",
     name: "Artificial intelligence",
-    img: "https://www.google.com/imgres?imgurl=https%3A%2F%2Fimageio.forbes.com%2Fspecials-images%2Fimageserve%2F5ef3f7eec4f2390006f0c356%2FGUI--Graphical-User-Interface--concept-%2F960x0.jpg%3Ffit%3Dbounds%26format%3Djpg%26width%3D960&imgrefurl=https%3A%2F%2Fwww.forbes.com%2Fsites%2Fcathyhackl%2F2020%2F06%2F24%2Fhow-technology-will-create-these-7-jobs-in-the-future%2F&tbnid=auyCx4d_8AmeXM&vet=12ahUKEwi4oPePn8X2AhVyzaACHeJAC40QMygCegUIARDXAQ..i&docid=VozKTxjDl5kSmM&w=959&h=530&q=technology&ved=2ahUKEwi4oPePn8X2AhVyzaACHeJAC40QMygCegUIARDXAQ",
+    img: "https://imageio.forbes.com/specials-images/imageserve/5ef3f7eec4f2390006f0c356/GUI--Graphical-User-Interface--concept-/960x0.jpg?fit=bounds&format=jpg&width=960",
     about: "Artificial intelligence (AI) is a wide-ranging branch of computer science concerned with building smart machines capable of performing tasks that typically require human intelligence.Less than a decade after breaking the Nazi encryption machine Enigma and helping the Allied Forces win World War II, mathematician Alan Turing changed history a second time with a simple question.At its core, AI is the branch of computer science that aims to answer Turing's question in the affirmative. It is the endeavor to replicate or simulate human intelligence in machines."
 },{
     id:"2",
