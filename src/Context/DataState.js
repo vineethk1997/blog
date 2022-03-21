@@ -14,13 +14,13 @@ const DataState=(props)=> {
     id:"2",
     category: "Technology",
     name: "Blockchain",
-    img: "https://www.google.com/imgres?imgurl=https%3A%2F%2Flearn.g2.com%2Fhubfs%2FWhat_is_Information_Technology.jpg&imgrefurl=https%3A%2F%2Fwww.g2.com%2Farticles%2Fwhat-is-information-technology&tbnid=-Kn0KVO7xQabPM&vet=12ahUKEwi4oPePn8X2AhVyzaACHeJAC40QMygBegUIARDVAQ..i&docid=eAZXYmBTj_LBxM&w=2345&h=1279&q=technology&ved=2ahUKEwi4oPePn8X2AhVyzaACHeJAC40QMygBegUIARDVAQ",
+    img: "C:\Users\vijwo\OneDrive\Desktop\blog\img\tech\block.jpg.jpg",
     about: "Blockchain technology is most simply defined as a decentralized, distributed ledger that records the provenance of a digital asset. By inherent design, the data on a blockchain is unable to be modified, which makes it a legitimate disruptor for industries like payments, cybersecurity and healthcare. Our guide will walk you through what it is, how it's used and its history.Blockchain, sometimes referred to as Distributed Ledger Technology (DLT), makes the history of any digital asset unalterable and transparent through the use of decentralization and cryptographic hashing.  "
 },{
     id:"3",
     category: "Technology",
     name: "CyberSecurity",
-    img: "https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.caplinked.com%2Fwp-content%2Fuploads%2Fwhy-is-cybersecurity-important.jpg&imgrefurl=https%3A%2F%2Fwww.caplinked.com%2Fblog%2Fimportance-of-cybersecurity%2F&tbnid=aWSa8KuHp5D-gM&vet=12ahUKEwjO_5-RoMX2AhWqR2wGHZJiCoAQMygBegUIARDXAQ..i&docid=GqFwrGuxxOTEWM&w=1970&h=1250&q=cybersecurity&ved=2ahUKEwjO_5-RoMX2AhWqR2wGHZJiCoAQMygBegUIARDXAQ",
+    img: "https://www.datacenterknowledge.com/sites/datacenterknowledge.com/files/cybersecurity%20security%20infosec%20art%20getty.jpg",
     about: "Cyber security is the application of technologies, processes and controls to protect systems, networks, programs, devices and data from cyber attacks. It aims to reduce the risk of cyber attacks and protect against the unauthorised exploitation of systems, networks and technologies.Security system complexity, created by disparate technologies and a lack of in-house expertise, can amplify these costs. But organizations with a comprehensive cybersecurity strategy, governed by best practices and automated using advanced analytics, artificial intelligence (AI) and machine learning, can fight cyberthreats more effectively and reduce the lifecycle and impact of breaches when they occur."
 },{
     id:"4",
@@ -32,13 +32,13 @@ const DataState=(props)=> {
     id:"5",
     category: "Technology",
     name: "Cryptography",
-    img: "https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.kaspersky.com%2Fcontent%2Fen-global%2Fimages%2Frepository%2Fisc%2Fwhat-is-cryptography.jpg&imgrefurl=https%3A%2F%2Fwww.kaspersky.com%2Fresource-center%2Fdefinitions%2Fwhat-is-cryptography&tbnid=AKvMqDrVlp9hSM&vet=12ahUKEwiwlc7zoMX2AhUc_TgGHQcJCYsQMygHegUIARDjAQ..i&docid=632nLKWJk5x7RM&w=710&h=400&q=Cryptography&ved=2ahUKEwiwlc7zoMX2AhUc_TgGHQcJCYsQMygHegUIARDjAQ",
+    img: "https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8dGVjaHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60",
     about: "Cryptography is the study of secure communications techniques that allow only the sender and intended recipient of a message to view its contents. The term is derived from the Greek word kryptos, which means hidden.Cryptography, or cryptology is the practice and study of techniques for secure communication in the presence of adversarial behavior."
 },{
     id:"6",
     category: "Tourism",
     name: "London",
-    img: "https://www.google.com/search?q=london&rlz=1C1UEAD_enIN955IN955&sxsrf=APq-WBusMjUqtcTsm9aneLz-trB7sKQdYg:1647249094363&tbm=isch&source=iu&ictx=1&vet=1&fir=3XwHndLk0KjZrM%252C5o6EWoJUwWIg4M%252C_%253BJ13QCN7f47_LNM%252CCbsr-nuc5hu-xM%252C_%253BGU84KFs4JYZe2M%252CcxL2AUPxEwnU6M%252C_%253BgG_ZiejuguQy7M%252C1jO_jSrZW-QZgM%252C_%253BaIQ03QXEkdLJTM%252CodCiPcJpkYVRAM%252C_%253Bvv65suzo3J82OM%252Cttxc5Jt7MA1ATM%252C_%253BqfjjbHV7rL2SUM%252CJooZRkdAKNtRVM%252C_%253BnLqjLTxYaftrNM%252CodCiPcJpkYVRAM%252C_%253B1y3d6i5FFgMzgM%252CtNpK_bW-haPPOM%252C_%253BfvD-Q1xVTi6TyM%252Chf6tzZhpdX3EJM%252C_&usg=AI4_-kQSADQg8CUxiryN1ncaYYm7_K96Qw&sa=X&ved=2ahUKEwjn54CJocX2AhXSh-YKHQFCAjsQ9QF6BAhrEAE#imgrc=3XwHndLk0KjZrM",
+    img: "https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.simplilearn.com%2Fice9%2Ffree_resources_article_thumb%2FData-Science-vs.-Big-Data-vs.jpg&imgrefurl=https%3A%2F%2Fwww.simplilearn.com%2Fdata-science-vs-big-data-vs-data-analytics-article&tbnid=1-h23MKAEkNw9M&vet=12ahUKEwiytZrXoMX2AhVKR2wGHei6DaoQMygFegUIARDfAQ..i&docid=HoljWg-1z5W88M&w=848&h=477&q=Data%20science&ved=2ahUKEwiytZrXoMX2AhVKR2wGHei6DaoQMygFegUIARDfAQ",
     about: "London, the capital of England and the United Kingdom, is a 21st-century city with history stretching back to Roman times. At its centre stand the imposing Houses of Parliament, the iconic ‘Big Ben’ clock tower and Westminster Abbey, site of British monarch coronations. Across the Thames River, the London Eye observation wheel provides panoramic views of the South Bank cultural complex, and the entire city. Noisy, vibrant and truly multicultural, London is a megalopolis of people, ideas and frenetic energy."
 },{
     id:"7",

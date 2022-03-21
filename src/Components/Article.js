@@ -1,19 +1,27 @@
 import React,{useContext} from 'react';
 import DataContext from '../Context/DataContext';
-import { useParams } from 'react-router-dom';
-import "../ComponentCss/Article.css";
+
+// import "../ComponentCss/article.css";
+
+
 
 const Article = () => {
-    const[data, setData] = useContext(DataContext)
-    const {id}=useParams();
+    const[data, setData] = useContext(DataContext);
+    const arr =  window.location.href.split("/")
+    const id = arr[arr.length - 1]
+    console.log(id)
+    const articles = data.filter(item => {
+      return item.id === id;
+    })
+    console.log(articles[0])
   return (
     <div>
-        <h1 className='heading' >{data[id-1].name}</h1>
-        <div className='div_article' style={{ backgroundImage: "url(" + `${data[id-1].img}` + ")"}}>
+        <h1 className='heading' >{articles[0].name}</h1>
+        <div className='div_article[0]' style={{ backgroundImage: "url(" + `${articles[0].img}` + ")"}}>
         </div>
-        <div className='article-about'>{data[id-1].about}</div>
+        <div className='article[0]-about'>{articles[0].about}</div>
     </div>
   )
 }
 
-export default Article
+export default Article;

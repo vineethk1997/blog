@@ -21,15 +21,15 @@ export default function Food() {
 
       <Link to={'/article/'+row.id} style={{color:'black' }}  >
 
-          <div className='tdiv1'>
+          <div className='grid-container'>
 
             <div className='img' style={{ backgroundImage: "url(  `${row.img}` )"}}></div>
             
-            <div className='articleshort'>                    
+            <div className='article'>                    
               <div style={{ fontSize: '35px', fontWeight: '900' }}>{row.title}</div>
               <div style={{ fontSize: '15px' }}>{row.about}</div>
               <div className='name'>
-                  Food / {row.name}
+                  Food | {row.name}
               </div>
             </div>
           </div>
@@ -37,7 +37,7 @@ export default function Food() {
       </Link>
       )}
        </div>
-       <div style={{border:'2px black solid', height:'400px', marginTop:'25px'}}> Advertisement</div>
+       <div style={{border:'2px black solid', height:'600px', marginTop:'25px'}}> Advertisement</div>
 
        </div>
     
