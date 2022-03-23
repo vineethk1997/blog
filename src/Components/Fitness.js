@@ -18,18 +18,23 @@ export default function Fitness() {
 
       <Link to={'/article/'+row.id} style={{color:'black' }}  >
 
-          <div className='grid-container'>
+        <div className='flex'>
 
-            <div className='img' style={{ backgroundImage: "url(  `${row.img}` )"}}></div>
-            
-            <div className='article'>                    
-              <div style={{ fontSize: '35px', fontWeight: '900' }}>{row.title}</div>
-              <div style={{ fontSize: '15px' }}>{row.about}</div>
-              <div className='name'>
-                  Fitness | {row.name}
-              </div>
-            </div>
+        <div className='img'><img src={row.img}/></div>
+
+        <div className='article'>  
+          <div className='title'>                  
+          <div style={{ fontSize: '30px', fontWeight: '1000' }}>{row.title}</div>
           </div>
+          <div className='about'>
+          <div style={{ fontSize: '15px' }}>{row.about}</div>
+          </div>
+          <div className='name'>
+              Fitness | {row.name}
+          </div>
+        </div>
+        </div>
+           
         
       </Link>
       )}

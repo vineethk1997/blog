@@ -1,7 +1,8 @@
 import React,{useContext} from 'react';
 import DataContext from '../Context/DataContext';
 
-// import "../ComponentCss/article.css";
+
+
 
 
 
@@ -17,7 +18,7 @@ const Article = () => {
   return (
     <div>
         <h1 className='heading' >{articles[0].name}</h1>
-        <div className='div_article[0]' style={{ backgroundImage: "url(" + `${articles[0].img}` + ")"}}>
+        <div className='div_article[0]' ><img src={articles[0].img}/>
         </div>
         <div className='article[0]-about'>{articles[0].about}</div>
     </div>

@@ -3,5 +3,67 @@
     margin: 0;
     background-color: wheat;
     margin-top: 0;
-    
+}
+
+.hero-section {
+    display: flex;
+    width: 50vw;
+    height: 50vh;
+    margin: auto;
+    padding: 50px 0px;
+}
+
+.left-box {
+    height: 100%;
+    width: 50%;
+    background-color: red;
+}
+
+.right-box {
+    height: 100%;
+    width: 50%;
+}
+
+.right-box_content1 {
+    height: 50%;
+    width: 100%;
+    background-color: gray;
+}
+
+.right-box_content2 {
+    background-color: blue;
+    height: 50%;
+    width: 100%;
+}
+
+.heading1, .heading2 {
+    color: white;
+    margin: 0;
+}
+
+.top-article-section {
+    display: flex;
+    height: 30vh;
+    width: 70vw;
+    margin: auto;
+    padding: 20px;
+}
+
+.articleContainer {
+    width: 33%;
+    height: 100%;
+    margin-left: 20px;
+}
+
+.article {
+    width: 100%;
+    height: 100%;
+    background-color: grey;
+}
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
