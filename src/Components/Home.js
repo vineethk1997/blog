@@ -8,12 +8,12 @@ import DataContext from '../Context/DataContext';
 const Home = () => {
   const data= useContext(DataContext)
   
-  //console.log(data[0])
-  const heroSectionData = data[0].splice(0,3)
+  console.log(data[0])
+  const heroSectionData = data[0].splice(0,5)
   //console.log(heroSectionData);
 
   const topArticles = [...heroSectionData]
-  console.log(topArticles)
+  // console.log(topArticles)
 
   return (
   <>
